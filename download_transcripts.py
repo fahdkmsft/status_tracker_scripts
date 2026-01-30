@@ -159,6 +159,8 @@ def sanitize_filename(name):
     """Remove or replace characters that are invalid in filenames."""
     # Replace invalid characters with underscores
     name = re.sub(r'[<>:"/\\|?*]', '_', name)
+    # Replace spaces with hyphens
+    name = name.replace(' ', '-')
     # Remove leading/trailing spaces and dots
     name = name.strip(' .')
     # Limit length
