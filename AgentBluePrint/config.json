@@ -1,0 +1,11 @@
+{
+    "TenantId": "",
+    "MsiPrincipalId": "",
+    "AgentAppId": "",
+    "AgentAppClientSecret": "",
+    "AgentIdentityDisplayName": "",
+    "AgentUserDisplayName": "",
+    "AgentUserPrincipalName": "",
+    "ManagerEmail": "",
+    "UsageLocation": "US"
+}
